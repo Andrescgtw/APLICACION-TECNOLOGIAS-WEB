@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introducción a CSS</title>
+    <link rel="stylesheet" href="/public/css/global.css" />
+  </head>
+  <body>
+    <br />
+
+    <table class="empresa">
+      <tr>
+        <th class="emp2" colspan="2">Datos de la empresa</th>
+        <td class="emp1">
+          <figure>
+            <img
+              class="logo"
+              src="https://mirayconsulting.com/wp-content/uploads/2024/10/logo-miray-simple.jpg"
+              alt="LOGO MIRAY"
+            />
+          </figure>
+        </td>
+      </tr>
+      <tr>
+        <td class="emp1">MIRAY DISTRIBUIDORA</td>
+        <td class="emp1">RUC: 1702290829001</td>
+        <td class="emp1">Contacto: 0980937618</td>
+      </tr>
+    </table>
+    <table class="cliente">
+      <tr>
+        <th class="cli2" colspan="2">Datos del Cliente</th>
+      </tr>
+      <tr>
+        <th class="cli1">Nombre:</th>
+        <td class="cli1">Carlos Andres Guanoluisa Torres</td>
+      </tr>
+      <tr>
+        <th class="cli1">Cédula/RUC:</th>
+        <td class="cli1">1726349271</td>
+      </tr>
+      <tr>
+        <th class="cli1">Dirección:</th>
+        <td class="cli1">La Ecuatoriana, Quito, Ecuador</td>
+      </tr>
+      <tr>
+        <th class="cli1">Contacto:</th>
+        <td class="cli1">0980945338</td>
+      </tr>
+    </table>
+    <h1>FACTURA</h1>
+    <table class="productos">
+      <tr>
+        <th>Producto</th>
+        <th>Cantidad</th>
+        <th>Nombre</th>
+        <th>Descripcion</th>
+        <th>Precio unit ($)</th>
+        <th>Precio Total ($)</th>
+      </tr>
+      <tr>
+        <td class="img-prod">
+          <figure>
+            <img src="/public/img/manzana.jpg" alt="manzana" />
+          </figure>
+        </td>
+        <td>5</td>
+        <td>Manzana</td>
+        <td>Manzanas Rojas frescas</td>
+        <td>0.50</td>
+        <td>2.5</td>
+      </tr>
+      <tr>
+        <td class="img-prod">
+          <figure>
+            <img src="/public/img/uva.jpg" alt="manzana" />
+          </figure>
+        </td>
+        <td>2</td>
+        <td>Uva</td>
+        <td>Uvas tintas o Uvas Negras frescas</td>
+        <td>1.5 c/libra</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="img-prod">
+          <figure>
+            <img src="/public/img/pera.jpg" alt="manzana" />
+          </figure>
+        </td>
+        <td>9</td>
+        <td>Pera</td>
+        <td>Peras Verdes Frescas</td>
+        <td>0.50</td>
+        <td>4.5</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <th>Total</th>
+        <td>10</td>
+      </tr>
+    </table>
+    <br />
+    <table class="pago">
+      <tr>
+        <th>Forma de Pago</th>
+        <th>Observaciones</th>
+      </tr>
+      <tr>
+        <td>Transferencia Bancaria</td>
+        <td>El cliente solicita entrega el lunes por la mañana.</td>
+      </tr>
+    </table>
+  </body>
+  <footer>
+    <p>Aceptamos todas las tarjetas de debito y de credito</p>
+    <p>Dudas? -> Consulta con nuestros asesores</p>
+    <a href="https://workspace.google.com/intl/es-419/gmail/">ayuda@miray.com</a
+    ><br />
+    <a href="https://www.whatsapp.com/?lang=es_LA">+593 980937618 </a>
+  </footer>
+</html>
